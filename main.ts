@@ -9,7 +9,7 @@ namespace modules {
 namespace servers {
 
     function start() {
-        jacdac.productIdentifier = 0x34ef625e
+        jacdac.productIdentifier = 0x34ef625f //e
         jacdac.deviceDescription = "Callimatrix8x8"
         jacdac.startSelfServers(() => {
             // p0 neopixels
